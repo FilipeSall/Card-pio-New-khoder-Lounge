@@ -11,8 +11,8 @@ Aplicando meus novos conhecimentos de Desenvolvedor, decidi facilitar minha vida
 
 <h3 collor="red">Primeira versão do projeto</h3>
 
-<p>A primeira versão do projeto era bem simples e não foi usado nenhuma boa prática. O meu código JavaScript ficou longo pois não entendia muito bem sobre lógica de programação, porém, ele ficou funcional. E me ajudou **muito** no meu trabalho. 
-![Primeira versão do projeto](C:\Users\Win7\Desktop.Primeiro projeto.png)
+<p>A primeira versão do projeto era bem simples e não foi usado nenhuma boa prática. O meu código JavaScript ficou longo pois não entendia muito bem sobre lógica de programação, porém, ele ficou funcional. E me ajudou <strong>muito</strong> no meu trabalho. 
+![Primeiro projeto](https://user-images.githubusercontent.com/86988795/178377590-78c64129-3f65-4b7f-863b-0f15b3222297.png)
 
 Os garçons perceberam o que eu tinha feito e pediram para criar algo para eles também. Então, decidi colocar o projeto no GIT HUB e assim, eles teriam o acesso ao cardápio digital para saberem o nome do produto com o código de forma prática. </p>
 
