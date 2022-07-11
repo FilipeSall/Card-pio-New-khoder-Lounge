@@ -1,0 +1,177 @@
+:root {
+    /*cores genericas */
+    --cor1: #3C3C3C;
+    --cor2: #F2ECFF;
+    --cor3: #E7DFDD;
+    --cor4: #e8e8e8;
+
+    /* cores sombras, hover e ativos */
+    --cor1Hover:#666;
+    --cor2hover:#5F5F5F;
+    --coractive:#507267;
+    --coractive2:#FFFADE;
+    --corShadow:#c5c5c5;
+    --corShadow2:#ffffff;
+}
+
+.calculator{
+    position: relative;
+    width: 35vw;
+    height: 70vh;
+    background-color: black;
+    position: absolute;
+    margin:10vh 40vw ;
+    visibility: hidden;
+    border: 1px solid black;
+    box-shadow: 0 3px 5px black;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1px;
+}
+
+.calculator__container__display{
+    grid-column: 1 / 5;
+    grid-template-rows: 1 / 1;
+    position: relative;
+}
+
+.calculator__display {
+    background-color: black;
+    grid-column: 1 / 5;
+    grid-template-rows: 1 / 1;
+    color: var(--cor4);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 4rem;
+    height: 15vh;
+    box-shadow: inset 0px 0px 10px cornflowerblue;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.calculator__btn-clean{
+    position: absolute;
+    background-color: rgb(188, 143, 143, 0.4);
+    border-radius: 15px;
+    margin: 5%;
+}
+.calculator__btn-clean:hover{
+    cursor: pointer;
+}
+
+.igual,
+.clean,
+.calculator__keys,
+.calculator__value{
+    font-size: 2.5rem;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px 1px var(--cor1);
+}
+.calculator__keys{
+    background-color: lightgray;
+}
+.igual:active,.clean:active,
+.calculator__keys:active,
+.calculator__value:active{
+    background-color: var(--coractive2);
+}
+
+
+.display-block{
+    visibility: visible;
+}
+
+.calculator__img-clear{
+    opacity: 0.9;
+}
+
+.mais{
+    grid-row: 2 / 2;
+    grid-column: 1 / 1;
+}
+
+.menos{
+    grid-row: 2 / 2;
+    grid-column: 2 / 2;
+}
+
+.igual{
+    grid-row: 3 / 7;
+    grid-column: 4 / 4;
+    background-color: rosybrown;
+}
+
+.multiplicar{
+    grid-row: 2 / 2;
+    grid-column: 3 / 3;
+}
+
+.dividir{
+    grid-row: 2 / 2;
+    grid-column: 4 / 4;
+}
+
+.sete{
+    grid-row: 3 / 3;
+    grid-column: 1 / 1;
+}
+
+.oito{
+    grid-row: 3 / 3;
+    grid-column: 2 / 2;
+}
+
+.nove{
+    grid-row: 3 / 3;
+    grid-column: 3 / 3;
+}
+.quatro{
+    grid-row: 4 / 4;
+    grid-column: 1 / 1;
+}
+.cinco{
+    grid-row: 4 / 4;
+    grid-column: 2 / 2;
+}
+.seis{
+    grid-row: 4 / 4;
+    grid-column: 3 / 3;
+}
+.um{
+    grid-row: 5 / 5;
+    grid-column: 1 / 1;
+}
+.dois{
+    grid-row: 5 / 5;
+    grid-column: 2 / 2;
+}
+.tres{
+    grid-row: 5 / 5;
+    grid-column: 3 / 3;
+}
+.zero{
+    grid-row: 6 / 6;
+    grid-column: 1 / 1;
+}
+.ponto{
+    grid-row: 6 / 6;
+    grid-column: 2 / 2;
+}
+.clean{
+    grid-row: 6 / 6;
+    grid-column: 3 / 3;
+}
+
+@media screen and (max-width:1023px) {
+    .calculator{
+        width: 70vw;
+        margin:10vh 15vw ;
+    }
+}

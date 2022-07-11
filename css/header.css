@@ -1,0 +1,147 @@
+:root {
+    /*cores genericas */
+    --cor1: #3C3C3C;
+    --cor2: #F2ECFF;
+    --cor3: #E7DFDD;
+    --cor4: #e8e8e8;
+
+    /* cores sombras, hover e ativos */
+    --cor1Hover: #666;
+    --cor2hover: #5F5F5F;
+    --coractive: #507267;
+    --coractive2: #FFFADE;
+    --corShadow: #c5c5c5;
+    --corShadow2: #ffffff;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: var(--cor1);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.narg {
+    display: flex;
+    flex-direction: column;
+    opacity: 0.9;
+}
+
+#vapor {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -2px;
+}
+
+#img-narg {
+    filter: drop-shadow(0 0 0.3rem #F2ECFF);
+}
+
+#vapor span {
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    background-color: var(--cor2);
+    width: 3%;
+    height: 20px;
+    animation: vapor 2s linear infinite;
+    filter: blur(5px);
+    animation-delay: calc(var(--2) * -0.5s);
+}
+
+.btn-calculator {
+    height: 5vh;
+    width: 5%;
+    background-color: var(--cor3);
+    box-shadow: 0 10px 10x black;
+    cursor: pointer;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/calculadora.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.calculator-img {
+    max-width: 75%;
+    opacity: 0.8;
+}
+
+.calculator-img:active {
+    opacity: 0.5;
+}
+
+@keyframes vapor {
+    0% {
+        transform: translateY(1) scaleX(1);
+        opacity: 0;
+    }
+
+    15% {
+        opacity: 1;
+    }
+
+    50% {
+        transform: translateY(-2px) scaleX(2);
+    }
+
+    95% {
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(-5px) scaleX(4);
+        opacity: 0;
+    }
+}
+
+input {
+    background-color: var(--cor3);
+    width: clamp(25%, 40%, 50%);
+    height: 5vh;
+    text-align: center;
+    color: var(--cor1);
+    font-weight: bold;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+input:focus,
+input:hover {
+    outline: none;
+    border-color: #fffadeec;
+    background-color: var(--cor2);
+    box-shadow: 0 0 0 1px var(--cor2);
+}
+
+@media screen and (max-width:1023px) {
+    header {
+        justify-content: space-around;
+    }
+
+    .narg {
+        min-width: 5vw;
+        overflow: hidden;
+    }
+
+    input {
+        width: 50%;
+    }
+
+    .btn-calculator {
+        width: clamp(10%,12%, 15%);
+        border-radius: 10px;
+    }
+
+    .calculator-img {
+        max-width: clamp(40%, 50%, 60%);
+    }
+}

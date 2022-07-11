@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cardápio New Khoder</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/calculator.css">
+    <link rel="stylesheet" href="./css/table.css">
+</head>
+
+<body>
+    <header>
+        <div class="narg">
+            <div id="vapor">
+                <span style="--1:1;"></span>
+                <span style="--1:8;"></span>
+                <span style="--1:4;"></span>
+                <span style="--1:10;"></span>
+                <span style="--1:5;"></span>
+                <span style="--1:6;"></span>
+                <span style="--1:7;"></span>
+                <span style="--1:9;"></span>
+                <span style="--1:3;"></span>
+                <span style="--1:11;"></span>
+            </div>
+            <img src="assets/narg.png" id="img-narg" alt="narg">
+        </div>
+        <label for="input"></label>
+        <input type="text" name="input" id="input" placeholder="Digite o produto com a tabela aberta">
+        <button type="button" class="btn-calculator" title="Calculadora"></button>
+    </header>
+    <nav id="container">
+        <div class="btn_container">
+            <button class="btn" id="btn-beer600">Cerveja 600ml</button>
+            <button class="btn" id="btn-longNeck">Long neck</button>
+            <button class="btn" id="btn-dose">Doses</button>
+            <button class="btn" id="btn-drinks">Drinks</button>
+            <button class="btn" id="btn-noalcool">Bebida s/alcool</button>
+            <button class="btn" id="btn-combo">Combos</button>
+            <button class="btn" id="btn-food">Comida</button>
+            <button class="btn" id="btn-smoke">Tabacaria</button>
+        </div>
+        <div class="calculator">
+            <div class="calculator__container__display">
+                <button  class="calculator__btn-clean"><img src="assets/clean.png" alt="limpar calculo" title='limpar tudo'></button>
+                <div class="calculator__display">
+                </div>
+            </div>
+            <button type="button" class="calculator__keys mais">+</button>
+            <button type="button" class="calculator__keys menos">-</button>
+            <button type="button" class="calculator__keys multiplicar">x</button>
+            <button type="button" class="calculator__keys dividir">÷</button>
+            <button type="button" class="calculator__value sete">7</button>
+            <button type="button" class="calculator__value oito">8</button>
+            <button type="button" class="calculator__value nove">9</button>
+            <button type="button" class="calculator__value quatro">4</button>
+            <button type="button" class="calculator__value cinco">5</button>
+            <button type="button" class="calculator__value seis">6</button>
+            <button type="button" class="calculator__value um">1</button>
+            <button type="button" class="calculator__value dois">2</button>
+            <button type="button" class="calculator__value tres">3</button>
+            <button type="button" class="calculator__value zero">0</button>
+            <button type="button" class="calculator__value ponto">.</button>
+            <button type="button" class="clean"><img src="./assets/backspace.png" class="calculator__img-clear"></button>
+            <button type="button" class="igual">=</button>
+        </div>
+        <table class="table table-desativado" id="beer600">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Heineken</td>
+                    <td>$19,00</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Original</td>
+                    <td>$15,00</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Brahama duplo malte</td>
+                    <td>$13,20</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Bohemia</td>
+                    <td>$13,20</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Eisenbahn</td>
+                    <td>$15,00</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Spaten</td>
+                    <td>$13,20</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Stella artois</td>
+                    <td>$16,00</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Serra Malte</td>
+                    <td>$15,84</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Budweiser</td>
+                    <td>$15,84</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Becks</td>
+                    <td>$17,00</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>Amstel</td>
+                    <td>$16,00</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-desativado" id="longNeck">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>11</td>
+                    <td>Corona</td>
+                    <td>$12,00</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>Eisenbahn</td>
+                    <td>$10,00</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>Budweiser</td>
+                    <td>$10,00</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>Stella artois</td>
+                    <td>$10,00</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>Becks</td>
+                    <td>$12,24</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>Heineken</td>
+                    <td>$13,20</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>Skoll beats Sense</td>
+                    <td>$12,00</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>Skoll beats GT</td>
+                    <td>$12,00</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>Heineken zero</td>
+                    <td>$13,20</td>
+                </tr>
+                <tr>
+                    <td>252</td>
+                    <td>Cerveja estrela galicia</td>
+                    <td>$10,00</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-desativado" id="dose">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>30</td>
+                    <td>Smirnoff</td>
+                    <td>$18,46</td>
+                </tr>
+                <tr>
+                    <td>31</td>
+                    <td>Absolute</td>
+                    <td>$19,80</td>
+                </tr>
+                <tr>
+                    <td>32</td>
+                    <td>Orlof</td>
+                    <td>$13,20</td>
+                </tr>
+                <tr>
+                    <td>33</td>
+                    <td>Bananinha</td>
+                    <td>$13,20</td>
+                </tr>
+                <tr>
+                    <td>34</td>
+                    <td>Licor 43</td>
+                    <td>$18,48</td>
+                </tr>
+                <tr>
+                    <td>35</td>
+                    <td>51</td>
+                    <td>$9,24</td>
+                </tr>
+                <tr>
+                    <td>36</td>
+                    <td>Seleta</td>
+                    <td>$10,56</td>
+                </tr>
+                <tr>
+                    <td>37</td>
+                    <td>Salinas</td>
+                    <td>$10,56</td>
+                </tr>
+                <tr>
+                    <td>38</td>
+                    <td>Tequila</td>
+                    <td>$19,80</td>
+                </tr>
+                <tr>
+                    <td>39</td>
+                    <td>Gin seagers</td>
+                    <td>$19,80</td>
+                </tr>
+                <tr>
+                    <td>40</td>
+                    <td>Red label</td>
+                    <td>$19,80</td>
+                </tr>
+                <tr>
+                    <td>41</td>
+                    <td>jack Daniels</td>
+                    <td>$23,76</td>
+                </tr>
+                <tr>
+                    <td>42</td>
+                    <td>Chivas</td>
+                    <td>$23,76</td>
+                </tr>
+                <tr>
+                    <td>43</td>
+                    <td>Old par</td>
+                    <td>$23,76</td>
+                </tr>
+                <tr>
+                    <td>44</td>
+                    <td>Jagmaster</td>
+                    <td>$19,80</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-desativado" id="drinks">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>96</td>
+                    <td>Gin 7belo</td>
+                    <td>$25,00</td>
+                </tr>
+                <tr>
+                    <td>97</td>
+                    <td>Gin pimenta rosa</td>
+                    <td>$23,00</td>
+                </tr>
+                <tr>
+                    <td>98</td>
+                    <td>Gin tônica</td>
+                    <td>$22,00</td>
+                </tr>
+                <tr>
+                    <td>99</td>
+                    <td>Gin passion</td>
+                    <td>$25,00</td>
+                </tr>
+                <tr>
+                    <td>100</td>
+                    <td>Gin tropical</td>
+                    <td>$27,00</td>
+                </tr>
+                <tr>
+                    <td>105</td>
+                    <td>Gin granadine</td>
+                    <td>$25,00</td>
+                </tr>
+                <tr>
+                    <td>106</td>
+                    <td>Gin hibisco</td>
+                    <td>$27,00</td>
+                </tr>
+                <tr>
+                    <td>107</td>
+                    <td>Moscow mule</td>
+                    <td>$23,76</td>
+                </tr>
+                <tr>
+                    <td>108</td>
+                    <td>Cosmopolitan</td>
+                    <td>$24,20</td>
+                </tr>
+                <tr>
+                    <td>109</td>
+                    <td>Negroni</td>
+                    <td>$23,76</td>
+                </tr>
+                <tr>
+                    <td>110</td>
+                    <td>Penicillin</td>
+                    <td>$33,00</td>
+                </tr>
+                <tr>
+                    <td>111</td>
+                    <td>Beer mule</td>
+                    <td>$25,00</td>
+                </tr>
+                <tr>
+                    <td>112</td>
+                    <td>Dry martini</td>
+                    <td>$26,40</td>
+                </tr>
+                <tr>
+                    <td>113</td>
+                    <td>Mojito</td>
+                    <td>$19,80</td>
+                </tr>
+                <tr>
+                    <td>114</td>
+                    <td>Cozumel</td>
+                    <td>$20,00</td>
+                </tr>
+                <tr>
+                    <td>115</td>
+                    <td>London mule</td>
+                    <td>$23,76</td>
+                </tr>
+                <tr>
+                    <td>116</td>
+                    <td>Margarita</td>
+                    <td>$23,76</td>
+                </tr>
+                <tr>
+                    <td>117</td>
+                    <td>Caipirinha</td>
+                    <td>$21,12</td>
+                </tr>
+                <tr>
+                    <td>118</td>
+                    <td>Mahattan</td>
+                    <td>$25,00</td>
+                </tr>
+                <tr>
+                    <td>119</td>
+                    <td>Caipirosca</td>
+                    <td>$21,12</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-desativado" id="noalcool">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>46</td>
+                    <td>Água tônica</td>
+                    <td>$6,96</td>
+                </tr>
+                <tr>
+                    <td>49</td>
+                    <td>Suco de pêssego</td>
+                    <td>$6,50</td>
+                </tr>
+                <tr>
+                    <td>50</td>
+                    <td>Red bull</td>
+                    <td>$15,94</td>
+                </tr>
+                <tr>
+                    <td>51</td>
+                    <td>Agua de coco 1L</td>
+                    <td>$19,80</td>
+                </tr>
+                <tr>
+                    <td>52</td>
+                    <td>Agua de coco</td>
+                    <td>$6,60</td>
+                </tr>
+                <tr>
+                    <td>53</td>
+                    <td>Agua com gás</td>
+                    <td>$6,60</td>
+                </tr>
+                <tr>
+                    <td>54</td>
+                    <td>Agua mineral</td>
+                    <td>$5,94</td>
+                </tr>
+                <tr>
+                    <td>55</td>
+                    <td>H2O</td>
+                    <td>$5,94</td>
+                </tr>
+                <tr>
+                    <td>56</td>
+                    <td>Coca-cola</td>
+                    <td>$6,50</td>
+                </tr>
+                <tr>
+                    <td>57</td>
+                    <td>Coca-cola zero</td>
+                    <td>$6,50</td>
+                </tr>
+                <tr>
+                    <td>58</td>
+                    <td>Guaraná</td>
+                    <td>$6,50</td>
+                </tr>
+                <tr>
+                    <td>59</td>
+                    <td>Guaraná zero</td>
+                    <td>$6,50</td>
+                </tr>
+                <tr>
+                    <td>60</td>
+                    <td>Fanta uva</td>
+                    <td>$6,50</td>
+                </tr>
+                <tr>
+                    <td>61</td>
+                    <td>Fanta laranja</td>
+                    <td>$6,50</td>
+                </tr>
+                <tr>
+                    <td>62</td>
+                    <td>Sprite</td>
+                    <td>$6,50</td>
+                </tr>
+                <tr>
+                    <td>63</td>
+                    <td>Suco de caju</td>
+                    <td>$6,50</td>
+                </tr>
+                <tr>
+                    <td>64</td>
+                    <td>Suco de manga</td>
+                    <td>$6,50</td>
+                </tr>
+                <tr>
+                    <td>65</td>
+                    <td>Suco de uva</td>
+                    <td>$6,50</td>
+                </tr>
+                <tr>
+                    <td>66</td>
+                    <td>Suco de maracuja</td>
+                    <td>$6,50</td>
+                </tr>
+                <tr>
+                    <td>67</td>
+                    <td>Shot de limão 50ml</td>
+                    <td>$6,50</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-desativado" id="combo">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>68</td>
+                    <td>Combo old parr</td>
+                    <td>$382,80</td>
+                </tr>
+                <tr>
+                    <td>69</td>
+                    <td>Combo black label</td>
+                    <td>$462,00</td>
+                </tr>
+                <tr>
+                    <td>70</td>
+                    <td>Combo Smirnoff</td>
+                    <td>$230,00</td>
+                </tr>
+                <tr>
+                    <td>71</td>
+                    <td>Combo Absolut</td>
+                    <td>$350,00</td>
+                </tr>
+                <tr>
+                    <td>72</td>
+                    <td>Combo Absolut elyx</td>
+                    <td>$390,00</td>
+                </tr>
+                <tr>
+                    <td>73</td>
+                    <td>Combo Cirok</td>
+                    <td>$400,00</td>
+                </tr>
+                <tr>
+                    <td>74</td>
+                    <td>Combo grey goose</td>
+                    <td>$430,00</td>
+                </tr>
+                <tr>
+                    <td>75</td>
+                    <td>Combo Jack Daniels</td>
+                    <td>$382,80</td>
+                </tr>
+                <tr>
+                    <td>76</td>
+                    <td>Combo chivas</td>
+                    <td>$382,80</td>
+                </tr>
+                <tr>
+                    <td>77</td>
+                    <td>Combo red label</td>
+                    <td>$310,00</td>
+                </tr>
+                <tr>
+                    <td>80</td>
+                    <td>Combo Double black</td>
+                    <td>$462,00</td>
+                </tr>
+                <tr>
+                    <td>81</td>
+                    <td>Combo ballantines</td>
+                    <td>$277,20</td>
+                </tr>
+                <tr>
+                    <td>82</td>
+                    <td>Combo tanqueray</td>
+                    <td>$330,00</td>
+                </tr>
+                <tr>
+                    <td>83</td>
+                    <td>Combo beefeater</td>
+                    <td>$300,00</td>
+                </tr>
+                <tr>
+                    <td>84</td>
+                    <td>Combo bombay</td>
+                    <td>$330,00</td>
+                </tr>
+                <tr>
+                    <td>85</td>
+                    <td>Combo seagers</td>
+                    <td>$224,40</td>
+                </tr>
+                <tr>
+                    <td>86</td>
+                    <td>Combo Gin Beg</td>
+                    <td>$343,20</td>
+                </tr>
+                <tr>
+                    <td>87</td>
+                    <td>Combo Beg M&T</td>
+                    <td>$330,00</td>
+                </tr>
+                <tr>
+                    <td>88</td>
+                    <td>Combo Beg MWN</td>
+                    <td>$369,60</td>
+                </tr>
+                <tr>
+                    <td>89</td>
+                    <td>Garrafa tequila</td>
+                    <td>$250,80</td>
+                </tr>
+                <tr>
+                    <td>90</td>
+                    <td>Chandon brutt</td>
+                    <td>$200,00</td>
+                </tr>
+                <tr>
+                    <td>91</td>
+                    <td>Chandon Rose</td>
+                    <td>$200,00</td>
+                </tr>
+                <tr>
+                    <td>92</td>
+                    <td>Chandon Passion</td>
+                    <td>$200,00</td>
+                </tr>
+                <tr>
+                    <td>93</td>
+                    <td>Casa Perini Chamat</td>
+                    <td>$150,00</td>
+                </tr>
+                <tr>
+                    <td>94</td>
+                    <td>Casa Perini Rose</td>
+                    <td>$150,00</td>
+                </tr>
+                <tr>
+                    <td>95</td>
+                    <td>Casa Perini Passion</td>
+                    <td>$150,00</td>
+                </tr>
+                <tr>
+                    <td>143</td>
+                    <td>Garrafa bananinha</td>
+                    <td>$96,00</td>
+                </tr>
+                <tr>
+                    <td>144</td>
+                    <td>Combo grey goose 1 5</td>
+                    <td>$700,00</td>
+                </tr>
+                <tr>
+                    <td>148</td>
+                    <td>Combo absolute Elyx 1,5L</td>
+                    <td>$480,00</td>
+                </tr>
+                <tr>
+                    <td>205</td>
+                    <td>Garrafa vinkins</td>
+                    <td>$150,00</td>
+                </tr>
+                <tr>
+                    <td>246</td>
+                    <td>Combo Pravda 1L</td>
+                    <td>$370,00</td>
+                </tr>
+                <tr>
+                    <td>247</td>
+                    <td>Combo Pravda 1750</td>
+                    <td>$700,00</td>
+                </tr>
+                <tr>
+                    <td>248</td>
+                    <td>Combo hidden garden</td>
+                    <td>$215,00</td>
+                </tr>
+                <tr>
+                    <td>249</td>
+                    <td>Combo viking vodka</td>
+                    <td>$220,00</td>
+                </tr>
+                <tr>
+                    <td>250</td>
+                    <td>Combo Stanislav</td>
+                    <td>$340,00</td>
+                </tr>
+                <tr>
+                    <td>251</td>
+                    <td>Combo langley</td>
+                    <td>$320,00</td>
+                </tr>
+                <tr>
+                    <td>300</td>
+                    <td>Garrafa Licor 43</td>
+                    <td>$320,00</td>
+                </tr>
+                <tr>
+                    <td>500</td>
+                    <td>Combo Smirnoff 600ml</td>
+                    <td>$140,00</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-desativado" id="food">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>130</td>
+                    <td>Batata frita</td>
+                    <td>$33,00</td>
+                </tr>
+                <tr>
+                    <td>131</td>
+                    <td>Batata frita com chedar e bacon</td>
+                    <td>$39,60</td>
+                </tr>
+                <tr>
+                    <td>132</td>
+                    <td>Carne de sol com mandioca</td>
+                    <td>$46,20</td>
+                </tr>
+                <tr>
+                    <td>133</td>
+                    <td>Frango à passarinho</td>
+                    <td>$36,96</td>
+                </tr>
+                <tr>
+                    <td>134</td>
+                    <td>Pastel de carne</td>
+                    <td>$22,44</td>
+                </tr>
+                <tr>
+                    <td>135</td>
+                    <td>Shawarma de carne</td>
+                    <td>$33,00</td>
+                </tr>
+                <tr>
+                    <td>136</td>
+                    <td>Shawarma de carne desfiada</td>
+                    <td>$33,00</td>
+                </tr>
+                <tr>
+                    <td>137</td>
+                    <td>Shawarma de frango</td>
+                    <td>$29,00</td>
+                </tr>
+                <tr>
+                    <td>138</td>
+                    <td>Shawarma fahita</td>
+                    <td>$33,00</td>
+                </tr>
+                <tr>
+                    <td>139</td>
+                    <td>Shawarma Filadelfia</td>
+                    <td>$36,96</td>
+                </tr>
+                <tr>
+                    <td>140</td>
+                    <td>Shawarma Misto</td>
+                    <td>$33,00</td>
+                </tr>
+                <tr>
+                    <td>141</td>
+                    <td>Halls</td>
+                    <td>$4,00</td>
+                </tr>
+                <tr>
+                    <td>142</td>
+                    <td>Trident</td>
+                    <td>$4,00</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-desativado" id="smoke">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>120</td>
+                    <td>Narguille</td>
+                    <td>$30,00</td>
+                </tr>
+                <tr>
+                    <td>121</td>
+                    <td>Narguille premium</td>
+                    <td>$42,00</td>
+                </tr>
+                <tr>
+                    <td>145</td>
+                    <td>Maço Tabaco</td>
+                    <td>$15,00</td>
+                </tr>
+                <tr>
+                    <td>146</td>
+                    <td>Maço palheiro lampião</td>
+                    <td>$25,00</td>
+                </tr>
+                <tr>
+                    <td>147</td>
+                    <td>Carvão Unidade</td>
+                    <td>$2,00</td>
+                </tr>
+                <tr>
+                    <td>200</td>
+                    <td>Paieiro picado</td>
+                    <td>$2,00</td>
+                </tr>
+            </tbody>
+        </table>
+    </nav>
+    <script src="./js/selectTr.js"></script>
+    <script src="./js/calculator.js"></script>
+    <script src="./js/input.js"></script>
+    <script src="./js/selectTable.js"></script>
+</body>
+
+</html>
