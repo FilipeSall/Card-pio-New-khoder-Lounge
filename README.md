@@ -21,8 +21,9 @@ Os garçons perceberam o que eu tinha feito e pediram para criar algo para eles 
 <h3>Nova versão do projeto</h3>
 
 <p>
-    Estudando mais, decidi melhorar o programa em base de feedbacks.
-    ![176591640-216c66b6-946b-40d5-aba0-5fa5ff303275](https://user-images.githubusercontent.com/86988795/178377935-442fe474-fd47-448f-8f5d-de34da2eeda7.png)
+    Estudando mais, decidi melhorar o programa em base de feedbacks e de novos conhecimentos sobre progamação.
+   ![176591640-216c66b6-946b-40d5-aba0-5fa5ff303275](https://user-images.githubusercontent.com/86988795/178378230-44024331-158b-4440-a129-2e5ed0baa668.png)
+
 </p>
 
 <p>
