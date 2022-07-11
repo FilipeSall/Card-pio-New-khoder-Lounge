@@ -16,12 +16,17 @@ Aplicando meus novos conhecimentos de Desenvolvedor, decidi facilitar minha vida
 
 Os garçons perceberam o que eu tinha feito e pediram para criar algo para eles também. Então, decidi colocar o projeto no GIT HUB e assim, eles teriam o acesso ao cardápio digital para saberem o nome do produto com o código de forma prática. </p>
 
+<p>Além de facilitar a agilidade do atendimento, a rotatividade melhor, pois eles conseguem atender mais pessoas, aumentando o número de vendas. </p>
 
-Além de facilitar a agilidade do atendimento, a rotatividade melhor, pois eles conseguem atender mais pessoas, aumentando o número de vendas. 
+<h3>Nova versão do projeto</h3>
 
-Estudando mais, decidi melhorar o programa em base de feedbacks. 
-![176591640-216c66b6-946b-40d5-aba0-5fa5ff303275](https://user-images.githubusercontent.com/86988795/178377935-442fe474-fd47-448f-8f5d-de34da2eeda7.png)
+<p>
+    Estudando mais, decidi melhorar o programa em base de feedbacks.
+    ![176591640-216c66b6-946b-40d5-aba0-5fa5ff303275](https://user-images.githubusercontent.com/86988795/178377935-442fe474-fd47-448f-8f5d-de34da2eeda7.png)
+</p>
 
-Nessa versão, acrescentei uma barra de pesquisa utilizando Reggex no Javascript. 
-Deixei o código Javascript mais profissional. O do primeiro projeto era enorme e de difícil manuntenção. 
-Criei uma calculadora para facilitar os calculos de fechamento de combo. Afinal, os garçons tinham que minimizar tudo e abrir uma calculadora para facilitar o calculo. Agora, a calculadora já está no próprio programa.
+<p>
+    Nessa versão, acrescentei uma barra de pesquisa utilizando Reggex no Javascript.
+    Deixei o código Javascript mais profissional. O do primeiro projeto era enorme e de difícil manuntenção.
+    Criei uma calculadora para facilitar os calculos de fechamento de combo. Afinal, os garçons tinham que minimizar tudo e abrir uma calculadora para facilitar o calculo. Agora, a calculadora já está no próprio programa.
+</p>
