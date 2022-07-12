@@ -11,22 +11,22 @@ Aplicando meus novos conhecimentos de Desenvolvedor, decidi facilitar minha vida
 
 <h3 collor="red">Primeira versão do projeto</h3>
 
-<p>A primeira versão do projeto era bem simples e não foi usado nenhuma boa prática. O meu código JavaScript ficou longo pois não entendia muito bem sobre lógica de programação, porém, ele ficou funcional. E me ajudou <strong>muito</strong> no meu trabalho. 
+A primeira versão do projeto era bem simples e não foi usado nenhuma boa prática. O meu código JavaScript ficou longo pois não entendia muito bem sobre lógica de programação, porém, ele ficou funcional. E me ajudou <strong>muito</strong> no meu trabalho. 
 <img src="./assets\Primeiro projeto.png">
 
 Os garçons perceberam o que eu tinha feito e pediram para criar algo para eles também. Então, decidi colocar o projeto no GIT HUB e assim, eles teriam o acesso ao cardápio digital para saberem o nome do produto com o código de forma prática. </p>
 
-<p>Além de facilitar a agilidade do atendimento, a rotatividade melhor, pois eles conseguem atender mais pessoas, aumentando o número de vendas </p>
+Além de facilitar a agilidade do atendimento, a rotatividade melhor, pois eles conseguem atender mais pessoas, aumentando o número de vendas
 ![versaoatual](https://user-images.githubusercontent.com/86988795/178394646-3d057748-6993-40c5-9023-f23c262b01b6.png)
 
 <h3>Nova versão do projeto</h3>
 
-<p>
-    Estudando mais, decidi melhorar o programa em base de feedbacks.
-</p>
 
-<p>
+    Estudando mais, decidi melhorar o programa em base de feedbacks.
+
+
+
     Nessa versão, acrescentei uma barra de pesquisa utilizando Reggex no Javascript.
     Deixei o código Javascript mais profissional. O do primeiro projeto era enorme e de difícil manuntenção.
     Criei uma calculadora para facilitar os calculos de fechamento de combo. Afinal, os garçons tinham que minimizar tudo e abrir uma calculadora para facilitar o calculo. Agora, a calculadora já está no próprio programa.
-</p>
+
