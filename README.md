@@ -22,7 +22,7 @@ Os garçons perceberam o que eu tinha feito e pediram para criar algo para eles 
 
 <p>
     Estudando mais, decidi melhorar o programa em base de feedbacks e de novos conhecimentos sobre progamação.
-  ![176591640-216c66b6-946b-40d5-aba0-5fa5ff303275](https://user-images.githubusercontent.com/86988795/178378490-a77f56ed-020e-43a0-9506-92040ab5e80d.png)
+ ![Primeiro projeto](https://user-images.githubusercontent.com/86988795/178378786-8fe6054c-5f9d-412e-b989-3c8da1a47ba8.png)
 
 
 </p>
