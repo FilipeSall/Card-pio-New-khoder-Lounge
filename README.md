@@ -16,10 +16,8 @@ Aplicando meus novos conhecimentos de Desenvolvedor, decidi facilitar minha vida
 
 Os garçons perceberam o que eu tinha feito e pediram para criar algo para eles também. Então, decidi colocar o projeto no GIT HUB e assim, eles teriam o acesso ao cardápio digital para saberem o nome do produto com o código de forma prática. </p>
 
-<p>Além de facilitar a agilidade do atendimento, a rotatividade melhor, pois eles conseguem atender mais pessoas, aumentando o número de vendas.
-![image](https://user-images.githubusercontent.com/86988795/178394370-aa71f469-2794-4980-85f2-3ca89589bb11.png)
-
-</p>
+<p>Além de facilitar a agilidade do atendimento, a rotatividade melhor, pois eles conseguem atender mais pessoas, aumentando o número de vendas </p>
+![versaoatual](https://user-images.githubusercontent.com/86988795/178394646-3d057748-6993-40c5-9023-f23c262b01b6.png)
 
 <h3>Nova versão do projeto</h3>
 
