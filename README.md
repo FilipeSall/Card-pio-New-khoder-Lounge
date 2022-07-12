@@ -8,21 +8,20 @@ Eu, que trabalho no caixa e responsável por deixar o sistema funcionando, as ve
 
 Aplicando meus novos conhecimentos de Desenvolvedor, decidi facilitar minha vida: Criei um programa com todos os produtos agrupados por sua tipologia em tabelas, onde tinham seu código de produto e preço ao lado (não aguentava mais ficar abrindo no QRcode o cardapio para verificar o preço).</p>
 
-
 <h3 collor="red">Primeira versão do projeto</h3>
+![versaoantiga](https://user-images.githubusercontent.com/86988795/178395037-9ac1cef3-746e-4bcc-a0c2-399122dc99fb.png)
 
 A primeira versão do projeto era bem simples e não foi usado nenhuma boa prática. O meu código JavaScript ficou longo pois não entendia muito bem sobre lógica de programação, porém, ele ficou funcional. E me ajudou <strong>muito</strong> no meu trabalho. 
-<img src="./assets\Primeiro projeto.png">
 
 Os garçons perceberam o que eu tinha feito e pediram para criar algo para eles também. Então, decidi colocar o projeto no GIT HUB e assim, eles teriam o acesso ao cardápio digital para saberem o nome do produto com o código de forma prática. </p>
 
 Além de facilitar a agilidade do atendimento, a rotatividade melhor, pois eles conseguem atender mais pessoas, aumentando o número de vendas
-![versaoatual](https://user-images.githubusercontent.com/86988795/178394646-3d057748-6993-40c5-9023-f23c262b01b6.png)
+
 
 <h3>Nova versão do projeto</h3>
 
 
-    Estudando mais, decidi melhorar o programa em base de feedbacks.
+Estudando mais, decidi melhorar o programa em base de feedbacks.
 
 
 
