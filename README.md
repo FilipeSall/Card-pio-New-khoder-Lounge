@@ -8,7 +8,7 @@ Eu, que trabalho no caixa e responsável por deixar o sistema funcionando, as ve
 
 Aplicando meus novos conhecimentos de Desenvolvedor, decidi facilitar minha vida: Criei um programa com todos os produtos agrupados por sua tipologia em tabelas, onde tinham seu código de produto e preço ao lado (não aguentava mais ficar abrindo no QRcode o cardapio para verificar o preço).
 
-<h3 collor="red">Primeira versão do projeto</h3>
+<h3 color="red">Primeira versão do projeto</h3>
 
 A primeira versão do projeto era bem simples e não foi usado nenhuma boa prática. O meu código JavaScript ficou longo pois não entendia muito bem sobre lógica de programação, porém, ele ficou funcional. E me ajudou <strong>muito</strong> no meu trabalho. 
 
