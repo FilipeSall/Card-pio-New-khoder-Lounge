@@ -17,6 +17,7 @@ Os garçons perceberam o que eu tinha feito e pediram para criar algo para eles 
 Além de facilitar a agilidade do atendimento, a rotatividade melhor, pois eles conseguem atender mais pessoas, aumentando o número de vendas
 
 <h3>Nova versão do projeto</h3>
+![versaoatual](https://user-images.githubusercontent.com/86988795/178395207-adb5cbc5-6790-43c9-a5d4-891a2f2f1557.png)
 
 Estudando mais, decidi melhorar o programa em base de feedbacks.
 Nessa versão, acrescentei uma barra de pesquisa utilizando Reggex no Javascript.
