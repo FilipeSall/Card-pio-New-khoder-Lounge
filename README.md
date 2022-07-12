@@ -27,7 +27,7 @@ Nessa versão, acrescentei uma barra de pesquisa utilizando Reggex no Javascript
 Deixei o código Javascript mais fácil para manutenção e a responsividade melhor para cada tamanho de tela. 
 Criei uma calculadora para facilitar os calculos de fechamento de combo. Afinal, os garçons tinham que minimizar tudo e abrir uma calculadora para facilitar o calculo. Agora, a calculadora já está no próprio programa.
 
-
+![videocalc](https://user-images.githubusercontent.com/86988795/178400786-634b81be-4d71-44f9-9b32-67d458faedae.gif)
 
 
 
