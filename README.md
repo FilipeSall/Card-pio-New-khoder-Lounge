@@ -32,8 +32,3 @@ Criei uma calculadora para facilitar os calculos de fechamento de combo. Afinal,
 
 </div>
 
-<h4>O que foi feito no projeto</h4>
-
-![image](https://user-images.githubusercontent.com/86988795/178403621-e35355c7-90ff-4173-9f17-fc2c8cf826ca.png)
-
-
