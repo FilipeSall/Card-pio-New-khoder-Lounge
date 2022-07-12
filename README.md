@@ -26,9 +26,10 @@ Estudando mais, decidi melhorar o programa em base de feedbacks.
 Nessa versão, acrescentei uma barra de pesquisa utilizando Reggex no Javascript.
 Deixei o código Javascript mais fácil para manutenção e a responsividade melhor para cada tamanho de tela. 
 Criei uma calculadora para facilitar os calculos de fechamento de combo. Afinal, os garçons tinham que minimizar tudo e abrir uma calculadora para facilitar o calculo. Agora, a calculadora já está no próprio programa.
+<div align="center">
 
 ![newKhoderCalc](https://user-images.githubusercontent.com/86988795/178401536-02bb08a6-ff90-4fb7-87e3-8aac3fe51b33.gif)
 
-
+</div>
 
 
