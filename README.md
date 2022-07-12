@@ -16,6 +16,7 @@ Os garçons perceberam o que eu tinha feito e pediram para criar algo para eles 
 Além de facilitar a agilidade do atendimento, a rotatividade melhor, pois eles conseguem atender mais pessoas, aumentando o número de vendas
 
 <h3>Nova versão do projeto</h3>
+
 ![versaoatual](https://user-images.githubusercontent.com/86988795/178396095-91a40c5d-924a-4bb6-86d2-b96ab83cfb10.png)
 
 Estudando mais, decidi melhorar o programa em base de feedbacks.
